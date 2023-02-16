@@ -43,7 +43,7 @@ for(let icon of icons){
             if(element.target.id == "from"){
                 navigator.clipboard.writeText(fromText.value)
             }else{
-                navigator.clipboard.writeText(fromText.value)
+                navigator.clipboard.writeText(toText.value)
             }
         }else{
             let utterance;
